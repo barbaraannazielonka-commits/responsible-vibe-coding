@@ -10,7 +10,7 @@ For each project, record version/date, audience, learning objective, practical r
 | C — Security | Code/configuration review; secrets/dependencies; input handling; real authorisation and misuse tests if applicable; incident response |
 | D — AI responsibility | Development vs runtime AI; content checks; limitations; tool permissions/injection/cost controls if applicable; human decisions |
 | E — Inclusion | Keyboard/focus, contrast, labels, zoom/mobile, assistive-technology/user tests, diverse examples and alternatives |
-| F — Assessment and rights | Formative-only limits; reasonable variants; no profiling/rankings; feedback challenge/report route; human oversight |
+| F — Assessment, Feedback & Student Rights | Formative-only limits; private session-only performance views; no public rankings or ability labels; actionable feedback; automated-aid disclaimer; human oversight |
 | G — Deployment and maintenance | Executed tests; documentation; relevant approval; maintainer; updates/costs; fallback, incident and retirement plan; licences |
 
 For every gate, mark individual checks PASS / FAIL / NOT TESTED / NOT APPLICABLE, attach the command, observation or artifact and a reason, and record unresolved actions. Do not give an overall “approved” verdict when a required check is missing. A local-only prototype may be ready for adult testing while remaining unapproved for school use.
