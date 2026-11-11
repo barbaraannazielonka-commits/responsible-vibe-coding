@@ -1,6 +1,6 @@
 ---
 name: responsible-vibe-coding
-description: Apply The Vibe-Code of Ethics to build, modify, review, test, or prepare educational software for release with AI coding agents. Use when users request responsible or ethical vibe coding, student-facing learning apps, classroom prototypes, or security and maintainability review of educator-built tools. Cover pedagogy, privacy, security, accessibility, dignity, human oversight, evidence, and maintenance; distinguish a prototype from school approval.
+description: Apply The Vibe-Code of Ethics to build, modify, review, test, or prepare educational software for release with AI coding agents. Use when users request responsible or ethical vibe coding, student-facing learning apps, classroom prototypes, or security and maintainability review of educator-built tools. Cover pedagogy, privacy, security, accessibility, dignity, human oversight, student performance insights, evidence, and maintenance; distinguish a prototype from school approval.
 ---
 # Responsible Vibe Coding
 
@@ -8,7 +8,7 @@ Created by Barbara Anna Zielonka, based on *The Vibe-Code of Ethics*.
 
 Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See `LICENSE.md` for scope and attribution.
 
-Use this operational adaptation of Barbara Anna Zielonka’s *The Vibe-Code of Ethics*. Read `references/framework.md` when interpreting its principles; use `references/review.md` for the evidence record and release checks. Treat the source as a professional framework, not a security certificate or current legal authority. Version: 0.1.1, adapted 2026-11-11.
+Use this operational adaptation of Barbara Anna Zielonka’s *The Vibe-Code of Ethics*. Read `references/framework.md` when interpreting its principles; use `references/review.md` for the evidence record and release checks. Treat the source as a professional framework, not a security certificate or current legal authority. Version: 0.1.2, adapted 2026-11-11.
 
 ## 1. Establish purpose and proportionate scope
 - State the learning objective, audience and age range, learning activity, and how the teacher stays in control. Explain the benefit compared with a non-digital alternative.
@@ -22,9 +22,10 @@ Use this operational adaptation of Barbara Anna Zielonka’s *The Vibe-Code of E
 - Document dependencies, external scripts/fonts, integrations, permissions, recurring costs and failure paths. Prefer simple, readable modules and minimal dependencies; pin and review needed packages and preserve lockfiles.
 - For accounts, databases or external AI, examine real configurations, server authorisation, provider policies and deletion arrangements. Keep unresolved issues explicit. Seek appropriate specialist/school review before student deployment; proceed with a fictional-data prototype where feasible.
 
-## 3. Build learning, dignity and accessibility into behavior
+## 3. Build learning, dignity, accessibility and transparent feedback into behavior
 - Require retrieval, explanation or application; offer scaffolding, hints, revision and learner choice. Make feedback specific and kind. Avoid timers, public rankings, shaming, unsupported ability labels or manipulative engagement.
 - Keep formative practice distinct from grading. Accept reasonable answer variants or explain matching limits and offer a way to discuss alternatives with a teacher. Do not automate consequential grades, progression or opportunities.
+- **Student Performance Insights & Score Display:** Display scores, completion stats, and attempts strictly to the individual learner on their own screen, stored in local session memory unless persistent storage is explicitly authorized. Avoid public leaderboards, competitive positionings, and peer comparisons. Use task-based or neutral terms ("Practiced", "Needs Review") rather than evaluative ability labels ("Weak", "Failing"). Always accompany scores with constructive, actionable formative guidance, and include a clear UI disclaimer: *"This feedback is an automated study aid, not an official grade."*
 - Use semantic controls, programmatic labels, keyboard operation, visible focus, adequate contrast, text resizing, responsive layouts, understandable error states, and reduced-motion support where animation exists. Do not rely on colour, audio or pointer gestures alone. Target WCAG 2.2 AA without claiming conformance from an automated scan.
 - Check examples for stereotypes, cultural assumptions and exclusion. Offer an equivalent non-digital route. State content provenance and human-review status honestly.
 
