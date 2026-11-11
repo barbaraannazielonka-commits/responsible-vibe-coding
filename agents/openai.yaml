@@ -1,0 +1,14 @@
+interface:
+  display_name: Responsible Vibe Coding
+  short_description: Build educational tools with ethics and evidence
+  default_prompt: Use $responsible-vibe-coding to build or review this educational
+    tool, explain the safeguards, and report evidence and remaining release gates.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
